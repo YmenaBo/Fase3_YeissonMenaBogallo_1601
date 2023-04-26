@@ -178,7 +178,7 @@ nav ul li ul li a:hover{
 /*Articulos*/
 
 main {
-  background-color: #f0f0f0;
+  background-color: var(--body-color);
   padding: 40px 20px;
 }
 
@@ -187,6 +187,8 @@ article {
   margin: 20px auto;
   padding: 40px;
   background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 article p{
@@ -205,11 +207,4 @@ footer {
   font-size: 14px;
   color: #555;
 }
-
-
-
-
-
-
-
 
