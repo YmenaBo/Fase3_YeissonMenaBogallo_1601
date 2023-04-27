@@ -9,12 +9,12 @@
   --white-color: #fff;
   --body-color: hsl(248, 100%, 99%);
 
-  /*========== Font and typography ==========*/
+  /*========== Font and tipografia ==========*/
   --body-font: 'Poppins', sans-serif;
   --small-font-size: .813rem;
 }
 
-/* Responsive typography */
+
 @media screen and (min-width: 1024px) {
   :root {
     --small-font-size: .875rem;
